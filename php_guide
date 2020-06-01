@@ -1,0 +1,57 @@
+<?php
+$initial = '555';
+
+//Converting $initial from octal string to decimal string.
+
+$a = octdec($initial);
+echo "Decimal string of \$initial:  $a";
+
+//convrting value of $a from degree to radians.
+
+$b = deg2rad($a);
+echo "\n";
+echo "\$a value in radians:  $b";;
+
+//finding cosine of $b.
+
+$c = cos($b);
+echo "\n";
+echo "cosine of \$b:  $c";
+
+//Rounding off $c.
+
+$d = round($c, 3);
+echo "\n";
+echo "Rounding off \$c:  $d";
+
+//log value of $d.
+$e = log($d);
+echo "\n";
+echo "log of \$d: $e";
+
+//absolute value of $e.
+$f = abs($e);
+echo "\n";
+echo "Absolute value \$d: $f";
+
+//acos value of $e.
+$g = acos($f);
+echo "\n";
+echo "arc cosine of \$f: $g";
+
+//conver $g into degree.
+$h = rad2deg($g);
+echo "\n";
+echo "In degree value \$g: $h";
+
+//round down of $g.
+$i = floor($h);
+echo "\n";
+echo "Round down of \$g: $i";
+
+//subtracting 47 from $i.
+$j = abs($i - 47);
+echo "\n";
+echo "Subtracting \$i from 47: $j";
+
+
